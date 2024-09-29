@@ -1,3 +1,4 @@
 # alphaco2
 imbank academy
-일요일 테스트
+수동테스트 확인완료
+자동테스트 진행중
