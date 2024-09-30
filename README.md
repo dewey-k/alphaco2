@@ -1,5 +1,6 @@
 # alphaco2
-print(" ")
+IM BANK
+print(' ')
 
 수동테스트 확인완료 (2024.09.26)
 print(' ')
