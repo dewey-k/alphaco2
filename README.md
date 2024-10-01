@@ -1,5 +1,5 @@
 # IM BANK
-## alphaco
+## Alphaco
 
 ### Git 자동화
 수동테스트 확인완료 (2024.09.26)
