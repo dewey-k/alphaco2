@@ -15,7 +15,7 @@ Class
 
 반복문(For & While) / 조건문(If)
 
-
+List
 
 Numpy
 
@@ -23,3 +23,8 @@ Series
 
 Pandas
 
+Data 가져오기 / 내보내기
+- Google Colab & Pandas
+
+
+데이터 시각화 () 
