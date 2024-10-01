@@ -10,18 +10,18 @@
 Python 
 - 기초 연산
 - Class
+    + 속성과 메서드
 - 상속 (오버라이딩, 오버로딩)
 - 반복문(For & While) / 조건문(If)
 - List
 
-
+데이터 전처리
 - Numpy
 - Series
 - Pandas
 
 Data 가져오기 / 내보내기
 - Google Colab & Pandas
-
 
 데이터 시각화
 - matplotlib & seaborn 
