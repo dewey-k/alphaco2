@@ -94,8 +94,7 @@ multiples = {
     '시가':'first',
     '저가': min,
     '고가': max,
-    '종가': 'last',
-    '평균': a
+    '종가': 'last'
 }
 result = df.groupby(['연','월']).agg(multiples)
 print(result)
