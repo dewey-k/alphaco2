@@ -76,9 +76,9 @@ df = df.reset_index()
 # print(df.info())
 
 # column 추가
-분기 = print(df['일자'].dt.quarter)
-연 = print(df['일자'].dt.year)
-월 = print(df['일자'].dt.month)
-일 = print(df['일자'].dt.day)
+df['분기'] = print(df['일자'].dt.quarter)
+연['연'] = print(df['일자'].dt.year)
+월['월'] = print(df['일자'].dt.month)
+일['일'] = print(df['일자'].dt.day)
 
 # print(df['일자'].dtype)
