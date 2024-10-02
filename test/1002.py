@@ -12,6 +12,7 @@ df = DataFrame(data=data, columns=columns)
 df.set_index("종목코드", inplace=True)
 print(df)
 
-
+# ascending = True (기본값) : 오름차순
+# ascending = False : 내림차순
 print(df.sort_values(by='현재가',ascending=False)) # 내림차순
-
+print(df.sort_values(by='현재가',ascending=True))
