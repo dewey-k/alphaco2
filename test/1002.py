@@ -66,9 +66,11 @@ df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
 print(df4.head())
 
 df = df4.reset_index()
-# print(df.head(1))
-# print(df.info())
-#print(df['일자'].dt.quarter)
-#print(df['일자'].dt.year)
-print(df['일자'].dt.month)
-print(df['일자'].dt.day)
+print(df.head(1))
+print(df.info())
+
+# column 추가
+# 분기 = print(df['일자'].dt.quarter)
+# 연 = print(df['일자'].dt.year)
+# 월 = print(df['일자'].dt.month)
+# 일 = print(df['일자'].dt.day)
