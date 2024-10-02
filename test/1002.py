@@ -61,6 +61,7 @@ result = df.groupby('테마')[['PER','PBR']].mean()
 # print(df.groupby('테마').get_group('시스템반도체'))
 # print(df.groupby('테마').get_group('해운'))
 
+# parse_dates는 datetime 형식으로 자동 변환하여 데이터 처리하는 read_#() 메서드의 매개변수
 df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
 print(df4.head())
 
