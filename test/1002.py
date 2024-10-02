@@ -53,8 +53,8 @@ print(df)
 result = df.groupby('테마')[['PER','PBR']].mean()
 print(result, type(result))
 # 내보내기
-result.to_csv("output/theme_stock.csv")
-result.to_excel("output/theme_stock.xlsx")
+# result.to_csv("output/theme_stock.csv")
+# result.to_excel("output/theme_stock.xlsx")
 
 # print(df.groupby('테마').get_group('2차전지(생산)'))
 # print(df.groupby('테마').get_group('시스템반도체'))
