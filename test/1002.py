@@ -21,4 +21,7 @@ df.set_index("종목코드", inplace=True)
 # print(df.sort_index(ascending=False)) # 역순
 
 # 인덱스 연산
-import 
+idx1 = pd.Index([1,2,3])
+idx2 = pd.Index([2,3,4])
+
+print(idx1.union(idx2))
