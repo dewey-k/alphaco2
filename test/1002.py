@@ -46,11 +46,11 @@ data = [
 ]
 
 columns = ["테마", "종목명", "PER", "PBR"]
-df = DataFrame(data=data, columns=columns)
+# df = DataFrame(data=data, columns=columns)
 # print(df)
 
 # DataFrameGroubBy 타입으로 변환했다가, DataFrame 타입으로 다시 변환
-result = df.groupby('테마')[['PER','PBR']].mean()
+# result = df.groupby('테마')[['PER','PBR']].mean()
 # print(result, type(result))
 
 # 내보내기
@@ -63,7 +63,7 @@ result = df.groupby('테마')[['PER','PBR']].mean()
 
 # parse_dates는 datetime 형식으로 자동 변환하여 데이터 처리하는 read_#() 메서드의 매개변수
 df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
-#print(df4.head())
+print(df4.head())
 
 df = df.reset_index()
 print(df.head(1))
