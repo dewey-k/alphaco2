@@ -60,3 +60,5 @@ print(result, type(result))
 # print(df.groupby('테마').get_group('시스템반도체'))
 # print(df.groupby('테마').get_group('해운'))
 
+df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
+df4.head()
