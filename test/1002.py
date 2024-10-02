@@ -30,3 +30,5 @@ print(idx1.union(idx2))
 # intersection : 교집합
 print(idx1.intersection(idx2))
 
+# difference : 차집합
+print(idx1.difference(idx2))
