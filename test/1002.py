@@ -67,3 +67,4 @@ df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
 
 df = df.reset_index()
 print(df.head(1))
+print(df.info())
