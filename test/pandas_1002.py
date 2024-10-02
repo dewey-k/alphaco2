@@ -96,3 +96,5 @@ multiples = {
     '고가': max,
     '종가': 'last'
 }
+result = df.groupby(['연','월']).agg(multiples)
+print(result)
