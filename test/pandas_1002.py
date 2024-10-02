@@ -85,3 +85,4 @@ print(df.head(1))
 # print(df['일자'].dtype)
 
 result = df.groupby(['연도','월']).get_group((2021, 2))
+print(result)
