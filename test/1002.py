@@ -49,5 +49,6 @@ columns = ["테마", "종목명", "PER", "PBR"]
 df = DataFrame(data=data, columns=columns)
 print(df)
 
+# DataFrameGroubBy 타입으로 변환했다가, DataFrame 타입으로 다시 변환
 result = df.groupby('테마')[['PER','PBR']].mean()
-print(result)
+print(result, type(result))
