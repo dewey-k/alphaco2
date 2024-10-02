@@ -17,4 +17,5 @@ print(df)
 print(df.sort_values(by='종목명',ascending=False)) # 내림차순
 print(df.sort_values(by='종목명',ascending=True)) # 오름차순
 
-
+print(df.sort_index()) # 기본값
+print(df.sort_index(ascending=False)) # 역순
