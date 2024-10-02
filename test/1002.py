@@ -20,7 +20,7 @@ df.set_index("종목코드", inplace=True)
 # print(df.sort_index()) # 기본값
 # print(df.sort_index(ascending=False)) # 역순
 
-# 인덱스 연산
+# 인덱스 연산 : 합집합, 교집합, 차집합의 원리를 사용하여 데이터 병합할 때 사용
 idx1 = pd.Index([1,2,3])
 idx2 = pd.Index([2,3,4])
 
