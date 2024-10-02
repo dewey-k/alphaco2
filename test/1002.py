@@ -23,7 +23,7 @@ df.set_index("종목코드", inplace=True)
 # 인덱스 연산 : 합집합, 교집합, 차집합의 원리를 사용하여 데이터 병합할 때 사용
 idx1 = pd.Index([1,2,3])
 idx2 = pd.Index([2,3,4])
-
+"""
 # union : 중복값은 제거 
 print(idx1.union(idx2))
 
@@ -31,4 +31,20 @@ print(idx1.union(idx2))
 print(idx1.intersection(idx2))
 
 # difference : 차집합
-print(idx1.difference(idx2))
+# print(idx1.difference(idx2))
+
+# GroubBy 연산
+from pandas import DataFrame
+
+data = [
+    ["2차전지(생산)", "SK이노베이션", 10.19, 1.29],
+    ["해운", "팬오션", 21.23, 0.95],
+    ["시스템반도체", "티엘아이", 35.97, 1.12],
+    ["해운", "HMM", 21.52, 3.20],
+    ["시스템반도체", "아이에이", 37.32, 3.55],
+    ["2차전지(생산)", "LG화학", 83.06, 3.75]
+]
+
+columns = ["테마", "종목명", "PER", "PBR"]
+df = DataFrame(data=data, columns=columns)
+df
