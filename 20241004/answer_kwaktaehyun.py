@@ -7,7 +7,7 @@ import seaborn
 # 문제 1
 """
 개발환경설정 및 깃허브 push 전 과정 서술
-virtualenv venv > source venv/bin/activate > which python
+virtualenv venv > source venv/bin/activate > which python > pip3 install 
 
 리포지토리 생성 > 주소 복사 > cd Desktop/ 
 git clone '복사한 주소'
