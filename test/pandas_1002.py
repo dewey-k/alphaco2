@@ -84,8 +84,12 @@ df['일'] = df['일자'].dt.day
 print(df.head(1))
 # print(df['일자'].dtype)
 
-# result = df.groupby(['연도','월']).get_group((2021, 2))
+# result = df.groupby(['연','월']).get_group((2021, 2))
 # print(result)
 
-result = df.groupby(['연도','월'])['시가'].mean()
+result = df.groupby(['연','월'])['시가'].mean()
 print(result)
+
+multiples = {
+    '시가':
+}
