@@ -1,3 +1,9 @@
+import warnings
+
+# openpyxl 경고 무시
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
+
+
 import pandas as pd
 from pandas import DataFrame
 
