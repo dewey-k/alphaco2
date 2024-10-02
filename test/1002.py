@@ -24,4 +24,5 @@ df.set_index("종목코드", inplace=True)
 idx1 = pd.Index([1,2,3])
 idx2 = pd.Index([2,3,4])
 
+# union : 중복값은 제거 
 print(idx1.union(idx2))
