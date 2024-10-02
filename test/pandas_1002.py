@@ -99,3 +99,4 @@ multiples = {
 result = df.groupby(['연','월']).agg(multiples)
 print(result.reset_index()) # 멀티 인덱스를 단일 인덱스로
 print(result)
+
