@@ -48,3 +48,5 @@ data = [
 columns = ["테마", "종목명", "PER", "PBR"]
 df = DataFrame(data=data, columns=columns)
 print(df)
+
+result = 
