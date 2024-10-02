@@ -59,3 +59,4 @@ print(result, type(result))
 # print(df.groupby('테마').get_group('2차전지(생산)'))
 # print(df.groupby('테마').get_group('시스템반도체'))
 # print(df.groupby('테마').get_group('해운'))
+
