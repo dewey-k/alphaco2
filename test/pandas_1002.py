@@ -85,7 +85,7 @@ print(df.head(1))
 # print(df['일자'].dtype)
 
 result = df.groupby(['연','월']).get_group((2021, 2))
-print(result)
+# print(result)
 
 result = df.groupby(['연','월'])['시가'].mean()
 # print(result)
@@ -97,5 +97,5 @@ multiples = {
     '종가': 'last'
 }
 result = df.groupby(['연','월']).agg(multiples)
-# print(result.reset_index()) # 멀티 인덱스를 단일 인덱스로
-# print(result)
+ print(result.reset_index()) # 멀티 인덱스를 단일 인덱스로
+ print(result)
