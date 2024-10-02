@@ -8,6 +8,9 @@ import seaborn
 """
 개발환경설정 및 깃허브 push 전 과정 서술
 virtualenv venv > source venv/bin/activate
+
+리포지토리 생성 > 코드 복사 > cd Desktop/경로
+
 git add .
 git commit -m "message"
 git push
