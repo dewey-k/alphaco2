@@ -62,15 +62,15 @@ columns = ["테마", "종목명", "PER", "PBR"]
 # print(df.groupby('테마').get_group('해운'))
 
 # parse_dates는 datetime 형식으로 자동 변환하여 데이터 처리하는 read_#() 메서드의 매개변수
-df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
-print(df4.head())
+df = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
+# print(df4.head())
 
-df = df4.reset_index()
-print(df.head(1))
-print(df.info())
+df = df.reset_index()
+# print(df.head(1))
+# print(df.info())
 
 # column 추가
-# 분기 = print(df['일자'].dt.quarter)
-# 연 = print(df['일자'].dt.year)
-# 월 = print(df['일자'].dt.month)
-# 일 = print(df['일자'].dt.day)
+분기 = print(df['일자'].dt.quarter)
+연 = print(df['일자'].dt.year)
+월 = print(df['일자'].dt.month)
+일 = print(df['일자'].dt.day)
