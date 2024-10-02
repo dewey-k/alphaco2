@@ -27,4 +27,4 @@ Data 가져오기 / 내보내기
 - matplotlib & seaborn 
 
 ### 시험 
-기초문법 : 반복문, 딕셔너리, numpy + 
+기초문법 : 반복문, 딕셔너리, numpy + series 조건문 적용, pandas 파일입출력, matplotlib + seaborn 2문제, plotly 1문제, 서술형 1문제
