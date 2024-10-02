@@ -25,3 +25,6 @@ Data 가져오기 / 내보내기
 
 데이터 시각화
 - matplotlib & seaborn 
+
+### 시험 
+기초문법 : 반복문, 딕셔너리, numpy + 
