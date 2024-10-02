@@ -81,4 +81,7 @@ df['연'] = df['일자'].dt.year
 df['월'] = df['일자'].dt.month
 df['일'] = df['일자'].dt.day
 
+print(df.head(1))
 # print(df['일자'].dtype)
+
+result = df.groupby(['연도','월']).get_group((2021, 2))
