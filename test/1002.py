@@ -47,11 +47,12 @@ data = [
 
 columns = ["테마", "종목명", "PER", "PBR"]
 df = DataFrame(data=data, columns=columns)
-print(df)
+# print(df)
 
 # DataFrameGroubBy 타입으로 변환했다가, DataFrame 타입으로 다시 변환
 result = df.groupby('테마')[['PER','PBR']].mean()
-print(result, type(result))
+# print(result, type(result))
+
 # 내보내기
 # result.to_csv("output/theme_stock.csv")
 # result.to_excel("output/theme_stock.xlsx")
@@ -61,4 +62,4 @@ print(result, type(result))
 # print(df.groupby('테마').get_group('해운'))
 
 df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
-df4.head()
+print(df4.head())
