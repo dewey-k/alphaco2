@@ -26,3 +26,7 @@ idx2 = pd.Index([2,3,4])
 
 # union : 중복값은 제거 
 print(idx1.union(idx2))
+
+# intersection : 교집합
+print(idx1.intersection(idx2))
+
