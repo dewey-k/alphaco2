@@ -46,7 +46,7 @@ data = [
 ]
 
 columns = ["테마", "종목명", "PER", "PBR"]
-# df = DataFrame(data=data, columns=columns)
+df = DataFrame(data=data, columns=columns)
 # print(df)
 
 # DataFrameGroubBy 타입으로 변환했다가, DataFrame 타입으로 다시 변환
