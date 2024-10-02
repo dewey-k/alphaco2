@@ -20,3 +20,5 @@ df.set_index("종목코드", inplace=True)
 # print(df.sort_index()) # 기본값
 # print(df.sort_index(ascending=False)) # 역순
 
+# 인덱스 연산
+import 
