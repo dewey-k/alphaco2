@@ -88,8 +88,11 @@ print(df.head(1))
 # print(result)
 
 result = df.groupby(['연','월'])['시가'].mean()
-print(result)
+# print(result)
 
 multiples = {
-    '시가':
+    '시가':'first',
+    '저가': min,
+    '고가': max,
+    '종가': 'last'
 }
