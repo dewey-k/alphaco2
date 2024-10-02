@@ -53,6 +53,7 @@ print(df)
 result = df.groupby('테마')[['PER','PBR']].mean()
 print(result, type(result))
 # 내보내기
+output_path = '/Users/dewey/Desktop/20241004/output/data.csv'
 result.to_csv()
 
 print(df.groupby('테마').get_group('2차전지(생산)'))
