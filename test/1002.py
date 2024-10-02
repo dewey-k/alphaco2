@@ -63,3 +63,4 @@ result = df.groupby('테마')[['PER','PBR']].mean()
 
 df4 = pd.read_excel("ss_ex_1.xlsx" , parse_dates=['일자'], index_col=0)
 print(df4.head())
+
