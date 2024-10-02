@@ -7,4 +7,7 @@ import seaborn
 # 문제1
 """
 개발환경설정 및 깃허브 push 전 과정 서술
+virtualenv venv > source venv/bin/activate
+git add .
+git commit -m "
 """
