@@ -1,5 +1,3 @@
-#
-
 import pandas as pd
 from pandas import DataFrame
 
@@ -12,4 +10,4 @@ data = [
 columns = ["종목코드", "종목명", "현재가"]
 df = DataFrame(data=data, columns=columns)
 df.set_index("종목코드", inplace=True)
-df
+print(df)
