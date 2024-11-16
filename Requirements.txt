@@ -9,4 +9,4 @@ plotly
 jupyterlab
 xlrd
 xlsxwriter
-statmodels
+statsmodels
